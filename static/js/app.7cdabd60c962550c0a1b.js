@@ -1057,7 +1057,7 @@ var spreadresult_nebPay = new nebpay_default.a();
 // const nebTo = 'n1bs9seJ2QtqY7w28MkRTUkosciEwgCD4Fo' // testnet
 var spreadresult_nebTo = 'n1Pgz5NeWd67ukEpw5a5Jzt1Gb4TM4c49GY'; // mainnet
 // const dappAddr = 'n1im4HkwPoostAN2W15Fd9YvCzRtwb2RMJL' // testnet
-var dappAddr = 'n1uHXjBowCgoku3h1s5yVps5WSwerZM9YGY'; // mainnet
+var dappAddr = 'n1vunvrqXjLw15PUGNcsk6xG5yrvXV4LCPr'; // mainnet
 var spreadresult_mainnetUrl = "https://pay.nebulas.io/api/mainnet/pay";
 var spreadresult_testnetUrl = "https://pay.nebulas.io/api/pay";
 
@@ -1210,7 +1210,7 @@ var stage1_spreadresult_nebPay = new nebpay_default.a();
 // const nebTo = 'n1bs9seJ2QtqY7w28MkRTUkosciEwgCD4Fo' // testnet
 var stage1_spreadresult_nebTo = 'n1Pgz5NeWd67ukEpw5a5Jzt1Gb4TM4c49GY'; // mainnet
 // const dappAddr = 'n1im4HkwPoostAN2W15Fd9YvCzRtwb2RMJL' // testnet
-var spreadresult_dappAddr = 'n1uHXjBowCgoku3h1s5yVps5WSwerZM9YGY'; // mainnet
+var spreadresult_dappAddr = 'n1vunvrqXjLw15PUGNcsk6xG5yrvXV4LCPr'; // mainnet
 var stage1_spreadresult_mainnetUrl = "https://pay.nebulas.io/api/mainnet/pay";
 var stage1_spreadresult_testnetUrl = "https://pay.nebulas.io/api/pay";
 
@@ -1314,14 +1314,14 @@ var spreadresult_s_result = __webpack_require__("hVH2").s_result;
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5fae677e","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/stage1/spreadresult.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-467c36fd","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vux-loader/src/before-template-compiler-loader.js!./node_modules/vux-loader/src/template-loader.js!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/stage1/spreadresult.vue
 var spreadresult_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"result"},[_vm._m(0),_vm._v(" "),_c('transition',{attrs:{"name":"v2"}},[(_vm.draw)?_c('div',{staticClass:"result"},[_vm._l((_vm.each),function(c){return _c('div',{staticClass:"card"},[_c('divider',[_vm._v("Tarot")]),_vm._v(" "),_c('h3',{staticClass:"card-name"},[_vm._v(_vm._s(c.card))]),_vm._v(" "),_c('img',{staticClass:"card-img",style:(c.style),attrs:{"src":c.path}})],1)}),_vm._v(" "),(_vm.number !== -1)?_c('flexbox',{staticClass:"save"},[_c('flexbox-item',[_c('x-input',{attrs:{"placeholder":"请输入昵称，默认为钱包地址"},model:{value:(_vm.nickName),callback:function ($$v) {_vm.nickName=$$v},expression:"nickName"}})],1),_vm._v(" "),_c('flexbox-item',{attrs:{"span":4}},[_c('x-button',{attrs:{"type":"primary","plain":""},nativeOn:{"click":function($event){return _vm.onSaveCard($event)}}},[_vm._v("保存")])],1)],1):_vm._e()],2):_vm._e()]),_vm._v(" "),_c('div',{staticClass:"choose"},[(!_vm.draw && _vm.number !== -1)?_c('div',{attrs:{"id":"enter"}},[_c('h2',[_vm._v("您想要抽 "+_vm._s(_vm.number)+" 张牌...")]),_vm._v(" "),_c('p',[_vm._v("请冥想并按下按钮...")]),_vm._v(" "),_c('svg',{staticClass:"vux-x-icon vux-x-icon-ios-circle-filled",attrs:{"type":"ios-circle-filled","size":"150","xmlns":"http://www.w3.org/2000/svg","width":"150","height":"150","viewBox":"0 0 512 512"},on:{"click":_vm.tEnd}},[_c('path',{attrs:{"d":"M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zm0 398.7c-105.1 0-190.7-85.5-190.7-190.7 0-105.1 85.5-190.7 190.7-190.7 105.1 0 190.7 85.5 190.7 190.7 0 105.1-85.6 190.7-190.7 190.7z"}}),_c('path',{attrs:{"d":"M256 96c-88.4 0-160 71.6-160 160s71.6 160 160 160 160-71.6 160-160S344.4 96 256 96z"}})])]):(!_vm.draw && _vm.number === -1)?_c('div',{staticClass:"enter"},[_c('h2',[_vm._v("搜索上次抽牌结果")]),_vm._v(" "),_c('x-input',{attrs:{"title":"昵称","placeholder":"请输入昵称，默认为钱包地址"},model:{value:(_vm.nickName),callback:function ($$v) {_vm.nickName=$$v},expression:"nickName"}}),_vm._v(" "),_c('x-button',{attrs:{"type":"primary","plain":""},nativeOn:{"click":function($event){return _vm.onSearchCard($event)}}},[_vm._v("搜索")])],1):_vm._e(),_vm._v(" "),_c('divider',[_vm._v(_vm._s(_vm.msg))]),_vm._v(" "),_c('div',{attrs:{"id":"leave"},on:{"click":_vm.leaveHandler}},[_c('svg',{staticClass:"vux-x-icon vux-x-icon-ios-arrow-thin-left",attrs:{"type":"ios-arrow-thin-left","size":"150","xmlns":"http://www.w3.org/2000/svg","width":"150","height":"150","viewBox":"0 0 512 512"}},[_c('path',{attrs:{"d":"M189.8 349.7c3.1-3.1 3-8 0-11.3L123.4 264H408c4.4 0 8-3.6 8-8s-3.6-8-8-8H123.4l66.3-74.4c2.9-3.4 3.2-8.1.1-11.2-3.1-3.1-8.5-3.3-11.4-.1 0 0-79.2 87-80 88S96 253.1 96 256s1.6 4.9 2.4 5.7 80 88 80 88c1.5 1.5 3.6 2.3 5.7 2.3s4.1-.8 5.7-2.3z"}})])])],1)],1)}
 var spreadresult_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"title"},[_c('h1',[_vm._v("抽牌机")])])}]
 var spreadresult_esExports = { render: spreadresult_render, staticRenderFns: spreadresult_staticRenderFns }
 /* harmony default export */ var components_stage1_spreadresult = (spreadresult_esExports);
 // CONCATENATED MODULE: ./src/components/stage1/spreadresult.vue
 function spreadresult_injectStyle (ssrContext) {
-  __webpack_require__("dEBS")
+  __webpack_require__("kZ/e")
 }
 var spreadresult_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -1334,7 +1334,7 @@ var spreadresult___vue_template_functional__ = false
 /* styles */
 var spreadresult___vue_styles__ = spreadresult_injectStyle
 /* scopeId */
-var spreadresult___vue_scopeId__ = "data-v-5fae677e"
+var spreadresult___vue_scopeId__ = "data-v-467c36fd"
 /* moduleIdentifier (server only) */
 var spreadresult___vue_module_identifier__ = null
 var spreadresult_Component = spreadresult_normalizeComponent(
@@ -3038,13 +3038,6 @@ new vue_esm["a" /* default */]({
 
 /***/ }),
 
-/***/ "dEBS":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "dFwu":
 /***/ (function(module, exports) {
 
@@ -3132,6 +3125,13 @@ exports.s_result = function (number) {
 	}
 	return list;
 };
+
+/***/ }),
+
+/***/ "kZ/e":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -3418,4 +3418,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.3ed20149d3993f70610a.js.map
+//# sourceMappingURL=app.7cdabd60c962550c0a1b.js.map
